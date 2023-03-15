@@ -2,18 +2,24 @@ import style from '../styles/Header.module.css'
 
 import amiPetsLogo from '../assets/amipets-logo.svg'
 
+import { Link } from 'react-router-dom'
+
 export default function Header() {
     return (
         <header className={style.header}>
             <div>
-                <a href="#">
+                <Link to="/">
                     <img src={amiPetsLogo} alt="amiPets Logo" />
-                </a>
+                </Link>
             </div>
             <nav className={style.navbar}>
                 <ul>
-                    <li>Sobre</li>
-                    <li>Contato</li>
+                    <li>
+                        <Link to='/about'>Sobre</Link>
+                    </li>
+                    <li>
+                        <Link to='/contact'>Contato</Link>
+                    </li>
                 </ul>
             </nav>
         </header>

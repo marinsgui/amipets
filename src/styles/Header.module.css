@@ -16,3 +16,16 @@
     display: flex;
     gap: 1em;
 }
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #374151;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover {
+    filter: brightness(110%);
+    box-shadow: 0px 0px 5px #000;
+}
