@@ -29,3 +29,13 @@
 .container img {
     width: 30em;
 }
+
+@media (max-width: 767px) {
+    .container h1 img {
+        width: 10em;
+    }
+
+    .container img {
+        width: 20em;
+    }
+}

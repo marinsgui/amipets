@@ -29,3 +29,14 @@
     filter: brightness(110%);
     box-shadow: 0px 0px 5px #000;
 }
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .header div img {
+        width: 15em;
+    }
+}
