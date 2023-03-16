@@ -1,0 +1,17 @@
+.container {
+    width: 100em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    padding: 2em;
+}
+
+.petList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
