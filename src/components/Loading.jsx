@@ -4,7 +4,7 @@ import loading from '../assets/loading.svg'
 
 export default function Loading() {
     return (
-        <div class={style.loader}>
+        <div className={style.loader}>
             <img src={loading} alt="Loading" />
         </div>
     )
